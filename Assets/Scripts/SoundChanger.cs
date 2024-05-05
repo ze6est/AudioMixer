@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class SoundChanger : MonoBehaviour
 {
-    const string MasterVolume = "MasterVolume";
-    const string ButtonsVolume = "ButtonsVolume";
-    const string BackgroundVolume = "BackgroundVolume";
-    const int SignalStrength = 25;
-    const int MindB = -80;
+    private const string MasterVolume = "MasterVolume";
+    private const string ButtonsVolume = "ButtonsVolume";
+    private const string BackgroundVolume = "BackgroundVolume";
+    private const int SignalStrength = 25;
+    private const int MindB = -80;
 
     [SerializeField] private AudioMixerGroup _masterGroup;
 
